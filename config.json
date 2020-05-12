@@ -1,0 +1,15 @@
+{
+    "name": "Virtualhere",
+    "version": "1.2.9",
+    "slug": "virtualhere",
+    "description": "Plugin do VirtualHere para Home Assistant",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "before",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "full_access" : "yes",
+    "ports": {
+        "7575/tcp": 7575
+    }
+}
